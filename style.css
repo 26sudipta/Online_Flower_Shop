@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/* header part of css */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  background-color: rgb(252, 238, 241);
+}
+#heading h1 {
+  font-size: 70px;
+}
+#heading p {
+  font-size: 15px;
+  padding: 20px 0;
+  line-height: 25px;
+}
+button {
+  background-color: rgb(229, 84, 115);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 15px;
+}
+/* section_1 part of css */
+#sec1{
+    text-align:center ;
+    padding-top: 100px;
+}
+#sec1 > h1{
+    font-size: 40px;
+    padding: 20px;
+}
+#sec1 > p{
+    font-size: 20px;
+    padding: 10px 0 50px 0;
+}
+#cards{
+ display: flex;
+ width: 80%;
+ margin: auto;
+ justify-content: space-around;
+}
+.card{
+    width: 32%;
+    background-color: rgb(252, 238, 241);
+    padding-top: 10px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.card2{
+    background-color: rgb(217, 239, 240);
+}
+.card3{
+    background-color:rgb(227, 235, 219);
+}
+.ut{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.ut h3{
+    width: 32%;
+    padding: 30px 0;
+    font-size: 20px;
+}
+.bnrs{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(244, 244, 244);
+    padding: 75px 0;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+.title h3 {
+    width: 32%;
+    margin-top: 15px;
+}
