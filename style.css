@@ -28,67 +28,177 @@ button {
   padding: 15px;
 }
 /* section_1 part of css */
-#sec1{
-    text-align:center ;
-    padding-top: 100px;
+#sec1 {
+  text-align: center;
+  padding-top: 100px;
 }
-#sec1 > h1{
-    font-size: 40px;
-    padding: 20px;
+#sec1 > h1 {
+  font-size: 40px;
+  padding: 20px;
 }
-#sec1 > p{
-    font-size: 20px;
-    padding: 10px 0 50px 0;
+#sec1 > p {
+  font-size: 20px;
+  padding: 10px 0 50px 0;
 }
-#cards{
- display: flex;
- width: 80%;
- margin: auto;
- justify-content: space-around;
+#cards {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
 }
-.card{
-    width: 32%;
-    background-color: rgb(252, 238, 241);
-    padding-top: 10px;
-    border-radius: 50% 50% 0 0;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+.card {
+  width: 32%;
+  background-color: rgb(252, 238, 241);
+  padding-top: 10px;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
-.card2{
-    background-color: rgb(217, 239, 240);
+.card2 {
+  background-color: rgb(217, 239, 240);
 }
-.card3{
-    background-color:rgb(227, 235, 219);
+.card3 {
+  background-color: rgb(227, 235, 219);
 }
-.ut{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
+.ut {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
 }
-.ut h3{
-    width: 32%;
-    padding: 30px 0;
-    font-size: 20px;
+.ut h3 {
+  width: 32%;
+  padding: 30px 0;
+  font-size: 20px;
 }
-.bnrs{
-    width: 80%;
-    margin: auto;
-    background-color: rgb(244, 244, 244);
-    padding: 75px 0;
-    margin: 50px auto;
-    border-radius: 5px;
+.bnrs {
+  width: 80%;
+  background-color: rgb(244, 244, 244);
+  padding: 75px 0;
+  margin: 50px auto;
+  border-radius: 5px;
 }
-.pic{
-    display: flex;
-    justify-content: space-around;
+.pic {
+  display: flex;
+  justify-content: space-around;
 }
-.title{
-    display: flex;
-    justify-content: space-around;
+.title {
+  display: flex;
+  justify-content: space-around;
 }
 .title h3 {
-    width: 32%;
-    margin-top: 15px;
+  width: 32%;
+  margin-top: 15px;
+}
+
+/* deals section of css */
+#deals {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(253, 246, 248);
+  margin: 100px 0px 50px 0px;
+}
+.deal h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.deal p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 20px 0px;
+}
+.deal button {
+  display: block;
+  margin: 0px auto;
+}
+#deals img {
+  padding: 30px 100px 30px 0px;
+}
+#insta {
+  padding: 50px 0px;
+}
+#insta > h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0 10px 0px;
+}
+#insta p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 30px 0px;
+  color: rgba(0, 0, 0, 0.718);
+}
+.pics {
+  width: 80%;
+  display: flex;
+  margin: 0px auto 100px;
+  justify-content: space-around;
+  gap: 1%;
+}
+.inbox {
+  width: 83%;
+  margin: auto;
+  background-image: url(img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.inbox h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 100px 0 10px 0px;
+}
+.inbox h5 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px 0px;
+  color: #000000be;
+}
+.mail {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 100px 0px;
+}
+input[type="email"] {
+  font-size: 25px;
+  width: 40%;
+  padding: 15px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* footer css start from here */
+footer {
+  background: rgb(17, 16, 16);
+  padding-top: 50px;
+  color: white;
+}
+footer span {
+  color: rgb(229, 84, 115);
+}
+footer h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 50px 0 30px 0px;
+}
+footer p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px;
+}
+footer h6 {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(116, 108, 108, 0.747);
+  padding: 50px 0px 100px 0px;
 }
