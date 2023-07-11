@@ -27,6 +27,32 @@ button {
   font-size: 25px;
   padding: 15px;
 }
+/* carts part of css */
+#carts {
+    width: 80%;
+    margin: 0px auto;
+}
+#carts > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 100px 0px 50px 0px;
+}
+.p{
+    width: 345px;
+}
+.cart {
+    display: flex;
+    justify-content: space-around;
+}
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+.price p {
+    font-size: 23px;
+    text-align: center;
+}
+
 /* section_1 part of css */
 #sec1 {
   text-align: center;
